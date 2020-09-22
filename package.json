@@ -1,0 +1,23 @@
+{
+  "name": "lit-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www",
+  "scripts": {
+    "start": "SET NODE_ENV=production node bin/www",
+    "dev": "nodemon bin/www --ignore src/index.js",
+    "build": "SET NODE_ENV=production webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2"
+  }
+}
